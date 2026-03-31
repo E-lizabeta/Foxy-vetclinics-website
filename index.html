@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Foxy-vetclinics/styles/mycss.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Foxy-vetclinics/files/logo-icon/icon192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Foxy-vetclinics/files/logo-icon/icon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Foxy-vetclinics/files/logo-icon/icon15.png">
+    <link rel="manifest" href="Foxy-vetclinics/files/logo-icon/site.webmanifest">
+    <title>Foxy-vetclinics</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="Foxy-vetclinics/files/logo.png" alt="Foxy Vetclinics">
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="index.html" class="active">Главная</a>
+                <a href="pricing.html">Каталог</a>
+                <a href="tel:+375447752874" class="header-phone">+375(44)775-28-74</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="mainscreen">
+        <img src="Foxy-vetclinics/images/main.jpg">
+        <h1>Доверьте лапы<br>в хорошие руки!</h1>
+        <a href="form.html" class="btn">Записаться</a>
+    </section>
+
+
+    <section class="sale">
+        <button class="sale-arrow sale-arrow-left" aria-label="Предыдущий слайд">&#10094;</button>
+
+        <div class="sale-slider">
+            <div class="sale-track">
+                <div class="sale-card">
+                    <img src="Foxy-vetclinics/images/sale/teeth.png" alt="Чистка зубов акция">
+                    <div class="sale-text">
+                        <h3>🐾Специальное предложение на ультразвуковую чистку зубов! 🐾</h3>
+
+                        <p>
+                            Приходите в нашу ветеринарную клинику и получите профессиональную ультразвуковую чистку
+                            зубов для вашей собаки или кошки со скидкой <b>20%</b>!
+                            <br><br>🔸 Преимущества ультразвуковой чистки:
+                            <br>- Удаление зубного налета и камня.
+                            <br>- Предотвращение заболеваний десен и зубов.
+                            <br>- Улучшение общего состояния здоровья питомца.
+                            <br><br>🔸 Условия акции:
+                            <br>- Акция действует до конца месяца.
+                            <br>- Записывайтесь заранее, чтобы получить скидку.
+                            <br><br><b>“Улучшим улыбку вашего питомца!”</b>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sale-card">
+                    <img src="Foxy-vetclinics/images/sale/vakcine.png" alt="Вакцинация акция">
+                    <div class="sale-text">
+                        <h3>🐾 Специальное предложение на вакцинацию! 🐾</h3>
+
+                        <p>
+                            Приходите в клинику Foxy-vetclincs и обеспечьте своего пушистого друга надежной защитой.
+                            Наши опытные врачи заботятся о здоровье ваших питомцев, и вакцинация — это первый шаг к
+                            долгой и
+                            счастливой жизни.
+                            <br><br>🔸 Что вы получите:
+                            <br>- Скидка 20% на все вакцины!
+                            <br>- Профессиональное обслуживание.
+                            <br>- Современные вакцины.
+                            <br><br>🔸 Условия акции:
+                            <br>- Предложение действительно до 31 мая.
+                            <br>- Предложение действительно только в будние дни.
+                            <br><br>Не упустите шанс обеспечить своего питомца надежной защитой!
+                            <br><br><b>🌟 “Забота о вашем питомце начинается с вакцинации!” 🌟</b>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sale-card">
+                    <img src="Foxy-vetclinics/images/sale/cosmet.png" alt="Акция преображение лапок">
+                    <div class="sale-text">
+                        <h3>🐾 “Преображение Лапки” - специальное предложение на косметические процедуры 🐾</h3>
+
+                        <p>
+                            🔸Что включает акция “Преображение Лапки”?
+                            <br>- Спа-процедуры.
+                            <br>- Стрижка и укладка.
+                            <br>- Маникюр и педикюр.
+                            <br>- Удаление перхоти и зуда.
+                            <br><br>🎁 Бонус:
+                            <br>После каждой процедуры ваш пушистый друг получит специальное угощение!
+                            <br><br>Акция действует каждый вторник!
+                            <br><br><b>🎉 Приходите в Foxy-vetclincs и подарите вашему питомцу почувствовать себя
+                                настоящей звездой!</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="sale-arrow sale-arrow-right" aria-label="Следующий слайд">&#10095;</button>
+    </section>
+
+    <section class="partner">
+        <h2>Наши партнёры</h2>
+
+        <div class="partner-list">
+            <div class="partner-item">
+                <img src="Foxy-vetclinics/images/partner/белека.png" alt="Белека">
+                <p>Белека</p>
+            </div>
+            <div class="partner-item">
+                <img src="Foxy-vetclinics/images/partner/Белкаролин.jpg" alt="Белкаролин">
+                <p>Белкаролин</p>
+            </div>
+            <div class="partner-item">
+                <img src="Foxy-vetclinics/images/partner/Рубикон.jpg" alt="Рубикон">
+                <p>Рубикон</p>
+            </div>
+            <div class="partner-item">
+                <img src="Foxy-vetclinics/images/partner/Boehringer_Ingelheim_Logo.png" alt="Boehringer Ingelheim">
+                <p>Boehringer<br>Ingelheim</p>
+            </div>
+            <div class="partner-item">
+                <img src="Foxy-vetclinics/images/partner/Logo_apicenna_RUS.png" alt="Apicenna">
+                <p>Apicenna</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Отзывы</h2>
+
+        <div class="reviews-grid">
+            <div class="review-card review-card-small">
+                <div class="review-avatar">
+                    <img src="Foxy-vetclinics/images/answer/istockphoto-1698772869-612x612.jpg"
+                        alt="Екатерина Морозова">
+                </div>
+                <h3>Екатерина Морозова</h3>
+                <p>
+                    Отличная клиника! Делали кастрацию кота — все прошло идеально, врач
+                    внимательный и заботливый. Очень чисто, уютно, современное оборудование.
+                    Спасибо за профессионализм!
+                </p>
+            </div>
+
+            <div class="review-card review-card-small">
+                <div class="review-avatar">
+                    <img src="Foxy-vetclinics/images/answer/closeup-young-man-with-beard-looking-serious-camera-standing-casual-shirt-blue-backgroun.jpg"
+                        alt="Дмитрий Волков">
+                </div>
+                <h3>Дмитрий Волков</h3>
+                <p>
+                    Спасли нашего кролика! Врач Смирнова В.В. настоящий профессионал, быстро
+                    поставила диагноз и помогла. Очень довольны качеством обслуживания.
+                    Теперь только сюда!
+                </p>
+            </div>
+
+            <div class="review-card review-card-wide">
+                <div class="review-avatar">
+                    <img src="Foxy-vetclinics/images/answer/lovely-woman-looking-away-from-camera.jpg"
+                        alt="Анна Соколова">
+                </div>
+                <h3>Анна Соколова</h3>
+                <p>
+                    Прекрасная клиника! Обратились с подобранным щенком, нужно было провести
+                    полный осмотр и вакцинацию. Врач очень внимательно осмотрела малыша, сразу
+                    заметила начинающийся отит, обработала ушки и дала бесплатные образцы капель
+                    с собой. Отдельное спасибо за подробную памятку по уходу и кормлению — очень
+                    помогла, так как щенок у нас первый. В клинике чисто, уютно, видно, что персонал
+                    любит животных. Цены адекватные, качество на высоте!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contacts">
+        <div class="contacts-card">
+            <div class="contacts-map-wrap">
+                <div id="map"></div>
+            </div>
+
+            <div class="contacts-info">
+                <div class="contacts-item">
+                    <h3>Телефон:</h3>
+                    <p>+375(44)775-28-74</p>
+                    <p>+375(29)565-34-09</p>
+                </div>
+
+                <div class="contacts-item">
+                    <h3>Адрес:</h3>
+                    <p>пр. Дзержинского 95</p>
+                </div>
+
+                <div class="contacts-item">
+                    <h3>Индекс:</h3>
+                    <p>220045</p>
+                </div>
+
+                <div class="contacts-item">
+                    <h3>Время работы:</h3>
+                    <p>Пн-Пт: 10.00-20.00</p>
+                    <p>Сб: 10.00-18.00</p>
+                    <p>Вс: выходной</p>
+                </div>
+
+                <div class="contacts-item">
+                    <h3>Почта:</h3>
+                    <p>foxyvetclinivs@gmail.com</p>
+                </div>
+
+                <div class="contacts-socials">
+                    <a href="#" aria-label="Telegram" class="social-link">
+                        <img src="Foxy-vetclinics/files/tg.png" alt="Telegram">
+                    </a>
+                    <a href="#" aria-label="WhatsApp" class="social-link">
+                        <img src="Foxy-vetclinics/files/whatsapp.png" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+<div class="footer-inner">
+        <a href="index.html" class="footer-logo">
+            <img src="Foxy-vetclinics/files/logofooter.png" alt="Foxy Vetclinics">
+        </a>
+
+        <div class="footer-center">
+            <p>О бренде и его идеологии</p>
+            <a href="#" class="footer-btn">Переходите сюда</a>
+        </div>
+
+        <div class="footer-socials">
+            <a href="#" aria-label="Facebook" class="footer-social">
+                <img src="Foxy-vetclinics/files/facebook.png" alt="Facebook">
+            </a>
+            <a href="#" aria-label="Instagram" class="footer-social">
+                <img src="Foxy-vetclinics/files/inst.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const track = document.querySelector(".sale-track");
+            const slides = document.querySelectorAll(".sale-card");
+            const prevBtn = document.querySelector(".sale-arrow-left");
+            const nextBtn = document.querySelector(".sale-arrow-right");
+
+            let currentIndex = 0;
+            let autoSlide;
+
+            function updateSlider() {
+                track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                updateSlider();
+            }
+
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                updateSlider();
+            }
+
+            function startAutoSlide() {
+                autoSlide = setInterval(nextSlide, 12000);
+            }
+
+            function resetAutoSlide() {
+                clearInterval(autoSlide);
+                startAutoSlide();
+            }
+
+            nextBtn.addEventListener("click", function () {
+                nextSlide();
+                resetAutoSlide();
+            });
+
+            prevBtn.addEventListener("click", function () {
+                prevSlide();
+                resetAutoSlide();
+            });
+
+            updateSlider();
+            startAutoSlide();
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+    const map = L.map('map').setView([ 27.4815, 53.8647], 15);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const marker = L.marker([53.8698, 27.4878]).addTo(map);
+
+    marker.bindPopup(`
+        <b>Foxy Vetclinics</b><br>
+        пр. Дзержинского 95<br>
+        Минск
+    `).openPopup();
+});
+    </script>
+</body>
+
+</html>
